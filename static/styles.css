@@ -11,6 +11,8 @@ body {
     top: 0;
     width: 100%;
     z-index: 1000;
+    border-bottom: 3px solid #1e90ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar a {
@@ -21,20 +23,29 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .navbar a:hover {
-    background: #ddd;
+    background: #1e90ff;
     color: black;
 }
 
 .stApp {
-    margin-top: 50px;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.glow {
+    text-align: center;
+    color: #1e90ff;
+    text-shadow: 0 0 5px #1e90ff, 0 0 10px #1e90ff, 0 0 15px #1e90ff, 0 0 20px #1e90ff, 0 0 25px #1e90ff, 0 0 30px #1e90ff, 0 0 35px #1e90ff;
 }
 
 section {
     padding: 60px;
     transition: 0.5s;
+    scroll-behavior: smooth;
 }
 
 #Home, #About, #LLM_Summarizer, #PDF_Summarizer, #Text_to_Graph {
