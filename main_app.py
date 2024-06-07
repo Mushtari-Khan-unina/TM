@@ -11,11 +11,11 @@ def navbar():
     st.markdown(
         """
         <div class="navbar">
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/llm_summarizer">LLM Summarizer</a>
-            <a href="/pdf_summarizer">PDF Summarizer</a>
-            <a href="/text_to_graph">Text to Graph</a>
+            <a href="?page=Home">Home</a>
+            <a href="?page=About">About</a>
+            <a href="?page=LLM_Summarizer">LLM Summarizer</a>
+            <a href="?page=PDF_Summarizer">PDF Summarizer</a>
+            <a href="?page=Text_to_Graph">Text to Graph</a>
         </div>
         """,
         unsafe_allow_html=True,
