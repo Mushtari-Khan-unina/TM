@@ -1,1 +1,5 @@
-
+streamlit
+transformers
+PyPDF2
+matplotlib
+wordcloud
